@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A5108FA23768F0800761AEA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5108F923768F0800761AEA /* Constants.swift */; };
+		2A5108FC23768F8300761AEA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5108FB23768F8300761AEA /* WelcomeViewController.swift */; };
+		2A5108FE2376907B00761AEA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5108FD2376907B00761AEA /* Item.swift */; };
+		2A510900237690AB00761AEA /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5108FF237690AB00761AEA /* ItemsViewController.swift */; };
+		2A5109022376973500761AEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5109012376973500761AEA /* Main.storyboard */; };
 		2A7D39D2237689F000E5BEB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D39D1237689F000E5BEB5 /* AppDelegate.swift */; };
 		2A7D39D4237689F000E5BEB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D39D3237689F000E5BEB5 /* SceneDelegate.swift */; };
-		2A7D39D6237689F000E5BEB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D39D5237689F000E5BEB5 /* ViewController.swift */; };
-		2A7D39D9237689F000E5BEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D39D7237689F000E5BEB5 /* Main.storyboard */; };
 		2A7D39DB237689F200E5BEB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D39DA237689F200E5BEB5 /* Assets.xcassets */; };
 		2A7D39DE237689F200E5BEB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7D39DC237689F200E5BEB5 /* LaunchScreen.storyboard */; };
+		73143BDF1831B40A8FEAFC8A /* Pods_FunChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCA86D585DD17E31CAAF597 /* Pods_FunChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		255C80A91C323C1C26CBD5D4 /* Pods-FunChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChat.debug.xcconfig"; path = "Target Support Files/Pods-FunChat/Pods-FunChat.debug.xcconfig"; sourceTree = "<group>"; };
+		2A5108F923768F0800761AEA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2A5108FB23768F8300761AEA /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		2A5108FD2376907B00761AEA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2A5108FF237690AB00761AEA /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		2A5109012376973500761AEA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2A7D39CE237689F000E5BEB5 /* FunChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7D39D1237689F000E5BEB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A7D39D3237689F000E5BEB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A7D39D5237689F000E5BEB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2A7D39D8237689F000E5BEB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A7D39DA237689F200E5BEB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A7D39DD237689F200E5BEB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A7D39DF237689F200E5BEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FC3D9F84931F09BA46FF90 /* Pods-FunChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunChat.release.xcconfig"; path = "Target Support Files/Pods-FunChat/Pods-FunChat.release.xcconfig"; sourceTree = "<group>"; };
+		9FCA86D585DD17E31CAAF597 /* Pods_FunChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73143BDF1831B40A8FEAFC8A /* Pods_FunChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2479521E5622A2340B17896F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FCA86D585DD17E31CAAF597 /* Pods_FunChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2A7D39C5237689F000E5BEB5 = {
 			isa = PBXGroup;
 			children = (
 				2A7D39D0237689F000E5BEB5 /* FunChat */,
 				2A7D39CF237689F000E5BEB5 /* Products */,
+				901AFC1648ECA5BAFE9A4D70 /* Pods */,
+				2479521E5622A2340B17896F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +79,25 @@
 			children = (
 				2A7D39D1237689F000E5BEB5 /* AppDelegate.swift */,
 				2A7D39D3237689F000E5BEB5 /* SceneDelegate.swift */,
-				2A7D39D5237689F000E5BEB5 /* ViewController.swift */,
-				2A7D39D7237689F000E5BEB5 /* Main.storyboard */,
 				2A7D39DA237689F200E5BEB5 /* Assets.xcassets */,
 				2A7D39DC237689F200E5BEB5 /* LaunchScreen.storyboard */,
 				2A7D39DF237689F200E5BEB5 /* Info.plist */,
+				2A5108F923768F0800761AEA /* Constants.swift */,
+				2A5108FB23768F8300761AEA /* WelcomeViewController.swift */,
+				2A5108FD2376907B00761AEA /* Item.swift */,
+				2A5108FF237690AB00761AEA /* ItemsViewController.swift */,
+				2A5109012376973500761AEA /* Main.storyboard */,
 			);
 			path = FunChat;
+			sourceTree = "<group>";
+		};
+		901AFC1648ECA5BAFE9A4D70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				255C80A91C323C1C26CBD5D4 /* Pods-FunChat.debug.xcconfig */,
+				50FC3D9F84931F09BA46FF90 /* Pods-FunChat.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A7D39E2237689F200E5BEB5 /* Build configuration list for PBXNativeTarget "FunChat" */;
 			buildPhases = (
+				2C75D1120DA6923B9A1E72AC /* [CP] Check Pods Manifest.lock */,
 				2A7D39CA237689F000E5BEB5 /* Sources */,
 				2A7D39CB237689F000E5BEB5 /* Frameworks */,
 				2A7D39CC237689F000E5BEB5 /* Resources */,
+				0915EE6B2286E7C3F0F11DB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +160,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5109022376973500761AEA /* Main.storyboard in Resources */,
 				2A7D39DE237689F200E5BEB5 /* LaunchScreen.storyboard in Resources */,
 				2A7D39DB237689F200E5BEB5 /* Assets.xcassets in Resources */,
-				2A7D39D9237689F000E5BEB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0915EE6B2286E7C3F0F11DB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunChat/Pods-FunChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunChat/Pods-FunChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FunChat/Pods-FunChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C75D1120DA6923B9A1E72AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A7D39CA237689F000E5BEB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A7D39D6237689F000E5BEB5 /* ViewController.swift in Sources */,
+				2A5108FC23768F8300761AEA /* WelcomeViewController.swift in Sources */,
 				2A7D39D2237689F000E5BEB5 /* AppDelegate.swift in Sources */,
 				2A7D39D4237689F000E5BEB5 /* SceneDelegate.swift in Sources */,
+				2A510900237690AB00761AEA /* ItemsViewController.swift in Sources */,
+				2A5108FE2376907B00761AEA /* Item.swift in Sources */,
+				2A5108FA23768F0800761AEA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2A7D39D7237689F000E5BEB5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A7D39D8237689F000E5BEB5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2A7D39DC237689F200E5BEB5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +354,7 @@
 		};
 		2A7D39E3237689F200E5BEB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255C80A91C323C1C26CBD5D4 /* Pods-FunChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +373,7 @@
 		};
 		2A7D39E4237689F200E5BEB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50FC3D9F84931F09BA46FF90 /* Pods-FunChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
