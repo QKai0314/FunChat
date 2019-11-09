@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Realm
 import RealmSwift
 
 class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let realm: Realm            // <- Insert this
-    let items: Results<Item>    // <- Insert this
+    let realm: Realm           // <- Insert this
+    let items: Results<Item>
+    
     let tableView = UITableView()
     
     var notificationToken: NotificationToken?
@@ -25,7 +27,8 @@ class ItemsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
 
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        super.init(coder: aDecoder)
+//        fatalError("init(coder:) has not been implemented")
     }
     
     deinit {
